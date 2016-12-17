@@ -5,6 +5,7 @@ header("location: index.php");
 ?>
 <html>
 <head>
+	<title>I love GitHub!</title>
 <style>
 #nav img:hover { 
 -webkit-transform: rotate(-7deg); -moz-transform: rotate(-7deg); -o-transform: rotate(-7deg);
@@ -46,7 +47,7 @@ header("location: index.php");
 <table width = 600>
 <tr>
 <td colspan = 3><img src = "head.png" height = 50 width = 200/><br>
-<td>Welcome <?php echo $_SESSION['username']."!"; ?>
+<td><?php echo $_SESSION['username']."!"; ?>
 <tr>
 <td colspan = 10><br>
 <tr>
